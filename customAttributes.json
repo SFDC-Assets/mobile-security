@@ -1,0 +1,4 @@
+{
+  "mobile.security.MINIMUM_OS_VERSION": { "value": "80.3", "severity": "info" },
+  "DISABLE_EXTERNAL_PASTE": true
+}
