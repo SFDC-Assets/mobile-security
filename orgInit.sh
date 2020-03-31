@@ -4,5 +4,5 @@ sfdx force:package:install -p 04t3A000001AJf2QAG --wait 20
 sfdx force:source:push
 sfdx force:user:permset:assign -n MobileSecurity
 sfdx shane:user:password:set -g User -l User -p salesforce1
-sfdx shane:connectedapp:attributes -n "Salesforce for iOS" -a customAttributes.json --showbrowser  
+sfdx shane:connectedapp:attributes -n "Salesforce for iOS" -a customAttributes.json
 sfdx force:org:open
