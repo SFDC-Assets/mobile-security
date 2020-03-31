@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#5A95DD</headerColor>
+        <logo>Mobile_Security_Icon</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>For Mobile Application Management insights</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Mobile Security</label>
+    <navType>Standard</navType>
+    <tabs>MobileTelephonyObject__c</tabs>
+    <tabs>MobileScreenshotObject__c</tabs>
+    <tabs>MobileEmailObject__c</tabs>
+    <tabs>MobileEnforcedPolicyObject__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Mobile_Security_UtilityBar</utilityBar>
+</CustomApplication>
