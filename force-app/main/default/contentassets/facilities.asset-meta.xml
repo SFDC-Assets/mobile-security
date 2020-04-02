@@ -2,7 +2,7 @@
 <ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
     <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
     <language>en_US</language>
-    <masterLabel>Mobile_Security_Icon</masterLabel>
+    <masterLabel>facilities</masterLabel>
     <relationships>
         <organization>
             <access>VIEWER</access>
@@ -11,7 +11,7 @@
     <versions>
         <version>
             <number>1</number>
-            <pathOnClient>Mobile Security Icon.png</pathOnClient>
+            <pathOnClient>facilities.png</pathOnClient>
         </version>
     </versions>
 </ContentAsset>
