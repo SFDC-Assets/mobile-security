@@ -14,7 +14,6 @@ trigger MobileTelephonyEventTrigger on MobileTelephonyEvent (after insert) {
             obj.OsVersion__c = event.OsVersion;
             obj.DeviceModel__c = event.DeviceModel;
             obj.UserId__c = event.UserId;
-            obj.UserName__c = event.UserName;
             obj.EventIdentifier__c = event.EventIdentifier;
             objects.add(obj);
     }

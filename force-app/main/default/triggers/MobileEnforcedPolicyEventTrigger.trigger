@@ -12,7 +12,6 @@ trigger MobileEnforcedPolicyEventTrigger on MobileEnforcedPolicyEvent (after ins
             obj.DeviceModel__c = event.DeviceModel;
             obj.EnforcedAction__c = event.EnforcedAction;
             obj.UserId__c = event.UserId;
-            obj.UserName__c = event.UserName;
             obj.EventIdentifier__c = event.EventIdentifier;
             obj.PolicyResultsText__c = event.PolicyResults;
             objects.add(obj);
