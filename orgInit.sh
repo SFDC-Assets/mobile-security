@@ -1,4 +1,4 @@
-sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s --wait 60 --userprefix admin -o security.demo
+sfdx shane:org:create -f config/project-scratch-def.json -d 3 -s --wait 60 --userprefix admin -o security.demo
 # Install https://appexchange.salesforce.com/listingDetail?listingId=a0N3000000B4cUuEAJ
 sfdx force:package:install -p 04t3A000001AJf2QAG --wait 20
 sfdx force:source:push
