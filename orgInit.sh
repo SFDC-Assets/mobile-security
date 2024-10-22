@@ -1,8 +1,9 @@
-sfdx shane:org:create -f config/project-scratch-def.json -d 3 -s --wait 60 --userprefix admin -o security.demo
+sf demoutil org create scratch -f config/project-scratch-def.json -d 5 -s -p mobile -e security.demo
+
 # Install https://appexchange.salesforce.com/listingDetail?listingId=a0N3000000B4cUuEAJ
-sfdx force:package:install -p 04t3A000001AJf2QAG --wait 20
-sfdx force:source:push
-sfdx force:user:permset:assign -n MobileSecurity
-sfdx shane:user:password:set -g User -l User -p salesforce1
-sfdx force:org:open
-sfdx shane:connectedapp:attributes -n "Salesforce for iOS" -a customAttributes.json
+sf package install -p 04t3A000001AJf2QAG --wait 20
+sf project deploy start
+sf org assign permset -n MobileSecurity
+sf demoutil user password set -p salesforce1 -g User -l User
+sf org open
+sf shane connectedapp attributes -n "Salesforce for iOS" -a customAttributes.json
